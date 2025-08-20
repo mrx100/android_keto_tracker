@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FAFAFA</color>
+    <color name="chart_primary">#2196F3</color>
+    <color name="chart_quaternary">#9C27B0</color>
+    <color name="chart_secondary">#FF9800</color>
+    <color name="chart_tertiary">#4CAF50</color>
+    <color name="error">#B00020</color>
+    <color name="error_alpha_20">#33B00020</color>
+    <color name="ketosis_danger">#F44336</color>
+    <color name="ketosis_excellent">#2E7D32</color>
+    <color name="ketosis_good">#4CAF50</color>
+    <color name="ketosis_warning">#FF9800</color>
+    <color name="on_background">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+    <color name="primary">#6200EE</color>
+    <color name="primary_alpha_20">#336200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="success">#4CAF50</color>
+    <color name="success_alpha_20">#334CAF50</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="warning">#FF9800</color>
+    <string name="app_name">Keto Tracker</string>
+    <string name="charts">Charts</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="food">Food</string>
+    <string name="health">Health</string>
+    <string name="settings">Settings</string>
+    <style name="Theme.KetoTracker" parent="android:Theme.Material.DayNight.NoActionBar"/>
+    <declare-styleable name="CircularProgressBar">
+        <attr format="integer" name="progress"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressBackgroundColor"/>
+        <attr format="dimension" name="strokeWidth"/>
+    </declare-styleable>
+</resources>

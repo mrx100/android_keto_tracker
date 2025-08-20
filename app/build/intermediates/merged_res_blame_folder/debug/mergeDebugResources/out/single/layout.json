@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/fragment_charts.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_charts.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/fragment_food.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_food.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/fragment_health.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_health.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/item_health_metric.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/item_health_metric.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/item_food_entry.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/item_food_entry.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/fragment_settings.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/fragment_dashboard.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-mergeDebugResources-76:/layout/activity_main.xml",
+        "source": "com.example.ketotracker.app-main-79:/layout/activity_main.xml"
+    }
+]

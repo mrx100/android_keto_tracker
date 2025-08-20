@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_fragment_health.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_health.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/xml_file_provider_paths.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_chart_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_chart_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/xml_file_paths.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_import_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_import_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ketosis_gauge_fill.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ketosis_gauge_fill.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_add_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_add_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_edit_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_edit_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_activity_main.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_dashboard_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_dashboard_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_settings_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_settings_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_item_food_entry.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/item_food_entry.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ketosis_gauge_background.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ketosis_gauge_background.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/xml_backup_rules.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_fragment_food.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_food.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_fragment_settings.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_health_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_health_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_delete_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_delete_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_food_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_food_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_save_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_save_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_item_health_metric.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/item_health_metric.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/drawable_ic_export_24.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/drawable/ic_export_24.xml"
+    },
+    {
+        "merged": "com.example.ketotracker.app-debug-77:/layout_fragment_charts.xml.flat",
+        "source": "com.example.ketotracker.app-main-79:/layout/fragment_charts.xml"
+    }
+]

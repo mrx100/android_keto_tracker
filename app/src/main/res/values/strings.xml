@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keto Tracker</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="food">Food</string>
+    <string name="health">Health</string>
+    <string name="charts">Charts</string>
+    <string name="settings">Settings</string>
+</resources>

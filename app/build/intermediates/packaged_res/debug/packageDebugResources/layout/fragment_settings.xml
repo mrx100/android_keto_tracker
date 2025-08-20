@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Data Management Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data_management"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Export Data Options -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_export_food_database"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/export_food_database"
+                    app:icon="@drawable/ic_export_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_export_health_metrics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/export_health_metrics"
+                    app:icon="@drawable/ic_export_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_export_all_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/export_all_data"
+                    app:icon="@drawable/ic_export_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <!-- Import Data Options -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_import_food_database"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/import_food_database"
+                    app:icon="@drawable/ic_import_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_import_health_metrics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/import_health_metrics"
+                    app:icon="@drawable/ic_import_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_import_all_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/import_all_data"
+                    app:icon="@drawable/ic_import_24"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+                <!-- Clear Data -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_clear_all_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear_all_data"
+                    app:icon="@drawable/ic_delete_24"
+                    app:iconTint="@color/error"
+                    android:textColor="@color/error"
+                    style="@style/Widget.Material3.Button.TextButton" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- User Preferences Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_preferences"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Height Setting -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/height_cm">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_height"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="173" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Target Weight Setting -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/target_weight_kg">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_target_weight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="75" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Carb Limit Setting -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="@string/carb_limit_g">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_carb_limit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text="20" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Save Preferences Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_save_preferences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    app:icon="@drawable/ic_save_24" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- About Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_description"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/version"
+                    android:textAppearance="@style/TextAppearance.Material3.BodySmall" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1.0.0"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>
