@@ -1,43 +1,33 @@
-# .github/workflows/build.yml
 name: Android Build
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
           cache: 'gradle'
-
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          # Install platform & build-tools matching your project (compileSdk = 34)
           packages: |
             platforms;android-34
             build-tools;34.0.0
             platform-tools
             cmdline-tools;latest
-
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
-
       - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace --no-daemon
-
       - name: Upload APK
         if: success()
         uses: actions/upload-artifact@v4
