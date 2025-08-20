@@ -232,4 +232,3 @@ This project is developed as a comprehensive keto tracking solution. All nutriti
 **Version**: 1.0.0  
 **Target Android Version**: API 24-34 (Android 7.0 - 14)  
 **Build System**: Gradle with Kotlin DSL
-# Triggering build
